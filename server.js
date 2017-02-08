@@ -25,7 +25,7 @@ app.get('/ui/my-file', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my-file.html'));
 });
 
-app.get('/ui/kutta', function (req, res) {
+app.get('kutta', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'kutta.html'));
 });
 
