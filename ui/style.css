@@ -20,6 +20,6 @@ body {
     height: 200px;
 }
 body {
-    background-image: url("wall.jpg");
+    background-image: url("/wall.jpg");
 }
 
