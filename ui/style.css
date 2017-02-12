@@ -2,7 +2,11 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
-    background-image: url("wall.jpg");
+    background: url(wall.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .center {
