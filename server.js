@@ -37,6 +37,12 @@ app.get('/ui/my-file', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my-file.html'));
 });
 
+var counter=0;
+app.get('/counter', function(req,res){
+    counter=counter+1;
+    res.send(counter.toString());
+});
+
 app.get('/kutta', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'kutta.html'));
 });
