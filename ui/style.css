@@ -1,10 +1,9 @@
-body {
+ body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: #84dcef;
     margin-top: 75px;
     background-size: cover;
 }
-
 .center {
     text-align: center;
 }
