@@ -29,6 +29,10 @@ app.get('/ui/wall.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'wall.jpg'));
 });
 
+app.get('/ui/contact.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
+});
+
 app.get('/ui/camper.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'camper.jpg'));
 });
